@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend admin app plug consorcios",
+  "main": "src/config/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "prd": "pm2 start scr/app.js --name plugconsorcios-admin-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/alexduarte/plugconsorcios"
+  },
+  "author": "AlexDuarte",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "pm2": "^4.4.0"
+  }
+}
