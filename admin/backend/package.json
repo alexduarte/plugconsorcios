@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Backend admin app plug consorcios",
-  "main": "src/config/server.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "nodemon",
     "prd": "pm2 start scr/app.js --name plugconsorcios-admin-backend"
@@ -21,6 +21,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
-    "pm2": "^4.4.0"
+    "mysql2": "^2.1.0",
+    "pm2": "^4.4.0",
+    "sequelize": "^5.21.8",
+    "sequelize-cli": "^5.5.1"
   }
 }
